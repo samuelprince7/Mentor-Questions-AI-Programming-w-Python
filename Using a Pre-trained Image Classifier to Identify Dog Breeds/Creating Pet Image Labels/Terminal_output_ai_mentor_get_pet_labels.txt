@@ -1,0 +1,63 @@
+root@a337191aec57:/home/workspace# python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
+Command Line Arguments:
+     dir = pet_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+Filename: Dalmatian_04037.jpg Pet_label= ['dalmatian']
+Filename: Basset_hound_01034.jpg Pet_label= ['bassethound']
+Filename: polar_bear_04.jpg Pet_label= ['polarbear']
+Filename: Poodle_07927.jpg Pet_label= ['poodle']
+Filename: Golden_retriever_05182.jpg Pet_label= ['goldenretriever']
+Filename: Golden_retriever_05223.jpg Pet_label= ['goldenretriever']
+Filename: Great_pyrenees_05367.jpg Pet_label= ['greatpyrenees']
+Filename: Great_dane_05320.jpg Pet_label= ['greatdane']
+Filename: Saint_bernard_08010.jpg Pet_label= ['saintbernard']
+Filename: Golden_retriever_05195.jpg Pet_label= ['goldenretriever']
+Filename: Boxer_02426.jpg Pet_label= ['boxer']
+Filename: gecko_02.jpg Pet_label= ['gecko']
+Filename: cat_01.jpg Pet_label= ['cat']
+Filename: Basenji_00974.jpg Pet_label= ['basenji']
+Filename: Boston_terrier_02285.jpg Pet_label= ['bostonterrier']
+Filename: Rabbit_002.jpg Pet_label= ['rabbit']
+Filename: Beagle_01170.jpg Pet_label= ['beagle']
+Filename: German_shepherd_dog_04890.jpg Pet_label= ['germanshepherddog']
+Filename: Dalmatian_04017.jpg Pet_label= ['dalmatian']
+Filename: German_shepherd_dog_04931.jpg Pet_label= ['germanshepherddog']
+Filename: Boston_terrier_02303.jpg Pet_label= ['bostonterrier']
+Filename: fox_squirrel_01.jpg Pet_label= ['foxsquirrel']
+Filename: German_shorthaired_pointer_04986.jpg Pet_label= ['germanshorthairedpointer']
+Filename: great_horned_owl_02.jpg Pet_label= ['greathornedowl']
+Filename: Beagle_01125.jpg Pet_label= ['beagle']
+Filename: Saint_bernard_08036.jpg Pet_label= ['saintbernard']
+Filename: Beagle_01141.jpg Pet_label= ['beagle']
+Filename: Great_pyrenees_05435.jpg Pet_label= ['greatpyrenees']
+Filename: Cocker_spaniel_03750.jpg Pet_label= ['cockerspaniel']
+Filename: Basenji_00963.jpg Pet_label= ['basenji']
+Filename: skunk_029.jpg Pet_label= ['skunk']
+Filename: Dalmatian_04068.jpg Pet_label= ['dalmatian']
+Filename: Golden_retriever_05257.jpg Pet_label= ['goldenretriever']
+Filename: cat_02.jpg Pet_label= ['cat']
+Filename: Miniature_schnauzer_06884.jpg Pet_label= ['miniatureschnauzer']
+Filename: gecko_80.jpg Pet_label= ['gecko']
+Filename: Poodle_07956.jpg Pet_label= ['poodle']
+Filename: Boston_terrier_02259.jpg Pet_label= ['bostonterrier']
+Filename: cat_07.jpg Pet_label= ['cat']
+Filename: Collie_03797.jpg Pet_label= ['collie']
+
+Pet Image Label Dictionary has 40 key-value pairs.
+Below are 10 of them:
+ 1 key:            Dalmatian_04037.jpg  label:                  dalmatian
+ 2 key:         Basset_hound_01034.jpg  label:                bassethound
+ 3 key:              polar_bear_04.jpg  label:                  polarbear
+ 4 key:               Poodle_07927.jpg  label:                     poodle
+ 5 key:     Golden_retriever_05182.jpg  label:            goldenretriever
+ 6 key:     Golden_retriever_05223.jpg  label:            goldenretriever
+ 7 key:       Great_pyrenees_05367.jpg  label:              greatpyrenees
+ 8 key:           Great_dane_05320.jpg  label:                  greatdane
+ 9 key:        Saint_bernard_08010.jpg  label:               saintbernard
+10 key:     Golden_retriever_05195.jpg  label:            goldenretriever
+* Doesn't Check the Results Dictionary because 'classify_images' hasn't been defined.
+* Doesn't Check the Results Dictionary because 'adjust_results4_isadog' hasn't been defined.
+* Doesn't Check the Results Dictionary because 'calculates_results_stats' hasn't been defined.
+
+** Total Elapsed Runtime: 0:0:0

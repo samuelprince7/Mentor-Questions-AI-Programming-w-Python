@@ -20,7 +20,7 @@
 #           of the pet and classifier labels as the item at index 2 of the list.
 #
 ##
-# Imports classifier function for using CNN to classify images 
+# Imports classifier function for using CNN to classify images .
 from classifier import classifier 
 
 # TODO 3: Define classify_images function below, specifically replace the None
